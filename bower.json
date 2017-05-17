@@ -1,0 +1,20 @@
+{
+  "name": "crawler",
+  "description": "crawler demo",
+  "main": "index.js",
+  "authors": [
+    "Lucien"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "crawler"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
