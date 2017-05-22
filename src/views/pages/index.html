@@ -22,5 +22,16 @@
 		</div>
 		</div>
 	</div>
+
+	<div class="row">
+		<div class="col-md-12">
+		<p class="text-left"><h2>最新新闻</h2></p>
+		<div class="list-group">
+		{% for today in todayNews %}
+		  <a href="{{ today.newsHref }}" class="list-group-item">{{ today.newsTitle }}</a>
+		{% endfor %}		
+		</div>
+		</div>
+	</div>
 </div>
 {% endblock  %}
